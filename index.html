@@ -14,12 +14,16 @@
   </head>
 
 <body>
+
+	<!--Шапка (Зафиксированный сверху Navbar)-->
 	<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #003867;">
 
+		<!--Логотип-->
 		<a href="#" class="navbar-brand">
 			<img src="logo-GN.jpg" width="60" height="auto" alt="logo">
 		</a>
 
+		<!--Кнопка меню для отображения навигации navbar на мобильных устройствах-->
 		<button class="navbar-toggler" type="button" 
 			data-toggle="collapse" data-target="#navbarSupportedContent" 
 			aria-controls="navbarSupportedContent" aria-expanded="false" 
@@ -27,6 +31,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
+		<!--Содержимое меню Navbar-->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item" >
@@ -46,6 +51,7 @@
 				</li>
 			</ul>
 
+			<!--Блок поиска справа-->
 			<form action="" class="form-inline my-2 my-lg-0">
 				<input type="text" class="form-control mr-sm2" 
 				placeholder="Найти новость..." aria-label="Найти новость...">
@@ -54,36 +60,151 @@
 		</div>
 	</nav>
 
-	<h1>Только Good Новости!</h1>
-
+	<!--Оффер-->
 	<div class="offer">
-		<div class="container">
+
+		<!--Заголовок "Good Новости"-->
+		<div class="container-fluid my-5 p-2" style="background-color: #E6E6FF;"><h1>Good Новости</h1></div>
+	
+		<!--Блок с новостями-->
+		<div class="container my-2 p-0">
 			<div class="row text-center justify-content-center">
 				
 				<div class="col-xs-12 col-sm-4 col-lg-3"><img src="news1.jpg" alt="«МЕГАФОН» первым..." class="w-100">
 				<h3>«МЕГАФОН» первым...</h3>
-				<p>«МЕГАФОН» первым среди операторов запускает в коммерческую эксплуатацию сервис для легкой и удобной ...</p></div>
+				<p>«МЕГАФОН» первым среди операторов запускает в коммерческую эксплуатацию сервис для легкой и удобной ...</p>
+				</div>
 
 				<div class="col-xs-12 col-sm-4 col-lg-3"><img src="news2.jpg" alt="Студенты из Херсона..." class="w-100">
 				<h3>Студенты из Херсона стали...</h3>
-				<p>Студенты из Херсона стали лучшими в конкурсе и побывали в Нидерландах.</p></div>
+				<p>Студенты из Херсона стали лучшими в конкурсе и побывали в Нидерландах.</p>
+				</div>
 
 				<div class="col-xs-12 col-sm-4 col-lg-3"><img src="news3.jpg" alt="Новости психологии..." class="w-100">
 				<h3>Новости психологии</h3>
-				<p>Интересные новости психология Постила...</p></div>
+				<p>Интересные новости психология Постила...</p>
+				</div>
 
 				<div class="col-xs-12 col-sm-4 col-lg-3"><img src="news4.jpg" alt="Помощник Google..." class="w-100">
 				<h3>Помощник Google будет рассказывать...</h3>
-				<p>Google смогла научить помощника Assistant оповещать только о хороших новостях своих польз...</p></div>
-				
-				
+				<p>Google смогла научить помощника Assistant оповещать только о хороших новостях своих польз...</p>
+				</div>				
+			
 			</div>
+		</div>
+
+		<!--Заголовок "Good Видеоновости"-->
+		<div class="container-fluid my-4 p-2" style="background-color: #E6E6FF;"><h1>Good Видеоновости</h1></div>
+
+		<!--Блок с видео-->
+		<div class="container-fluid">
+			<div class="row m-5">
+
+				<div class="col"><div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/_TG6iliwrec" class="embed-responsive-item"
+						allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col"><div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/wHqGYC1qcSU" class="embed-responsive-item"
+						allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col"><div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/TKv9C8RpeGo" class="embed-responsive-item"
+						allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col"><div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/E6y0VJjF1KI" class="embed-responsive-item"
+						allowfullscreen></iframe>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--Заголовок "Рейтинг Newsmakers"-->
+		<div class="container-fluid my-4 p-2" style="background-color: #E6E6FF;"><h1>Рейтинг Newsmakers</h1></div>
+
+		<!--Блок с рейтингом пользователей-->
+		<div class="container-fluid mt-4">
+			<div class="container p-4">
+				<div class="card-deck">
+					<div class="card text-center justify-content-center border-primary" style="width: 20rem;">
+						<img src="nm1.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+						<h4 class="card-title">Ангелина</h4>
+						<p class="card-text">Журналист</p>
+						<p class="card-text"> Рейтинг: 9,8</p>
+						<img class="card-img" style="width: 30%" src="like.jpg" alt="">
+						</div>
+					</div>
+					
+					<div class="card text-center justify-content-center border-primary" style="width: 20rem;">
+						<img src="nm2.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+						<h4 class="card-title">Екатерина</h4>
+						<p class="card-text">Блогер</p>
+						<p class="card-text"> Рейтинг: 9,5</p>
+						<img class="card-img" style="width: 30%" src="like.jpg" alt="">
+						</div>
+					</div>
+
+					<div class="card text-center justify-content-center border-primary" style="width: 20rem;">
+						<img src="nm3.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+						<h4 class="card-title">Владислав</h4>
+						<p class="card-text">Писатель</p>
+						<p class="card-text"> Рейтинг: 8.9</p>
+						<img class="card-img" style="width: 30%" src="like.jpg" alt="">
+						</div>
+					</div>
+
+					<div class="card text-center justify-content-center border-primary" style="width: 20rem;">
+						<img src="nm4.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+						<h4 class="card-title">Андрей</h4>
+						<p class="card-text">Блогер</p>
+						<p class="card-text"> Рейтинг: 8.7</p>
+						<img class="card-img" style="width: 30%" src="like.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>			
 		</div>
 	</div>
 
-	
+	<!--Футер-->
+	<footer class="navbar navbar-expand-center mt-4" style="background-color: #003867; height: 80px;">
 
-    <!-- Optional JavaScript -->
+		<!--Логотипы соцсетей-->
+		<a href="#" class="logss"> <img src="logS1.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS2.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS3.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS4.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS5.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS6.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS7.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS8.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS9.jpg" width="60" height="auto" alt="logo"> </a>
+
+		<a href="#" class="logss"> <img src="logS10.jpg" width="60" height="auto" alt="logo"> </a>
+
+	</footer>
+
+	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

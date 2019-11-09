@@ -1,7 +1,14 @@
 body{
-    height: 2000px;
+    height: auto;
 }
 h1{
     text-align: center;
-
 }
+
+.logss img{
+    width: 35px;
+}
+
+/*logss : hover {
+    width: 50%;
+}*/
