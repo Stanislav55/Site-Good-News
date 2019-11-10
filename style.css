@@ -3,12 +3,29 @@ body{
 }
 h1{
     text-align: center;
+    font-size: 25px;
 }
 
 .logss img{
-    width: 35px;
+    width: 30px;
 }
 
-/*logss : hover {
-    width: 50%;
-}*/
+/* Эффект увеличения логотипа при наведении*/
+.logss :hover{
+    width: 40px;
+}
+
+/*настройка лайка*/
+.card-img{
+    width: 30%;
+    margin: auto;
+}
+
+/* Табы синий цвет и по-жирнее*/
+.nav-link {
+    color: #003867;
+    font-weight: bold;
+} 
+
+
+
