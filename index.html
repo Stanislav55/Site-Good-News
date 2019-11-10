@@ -25,18 +25,20 @@
 		<a href="#" class="navbar-brand">
 			<img src="img/logo-GN.jpg" width="60" height="auto" alt="logo">
 		</a>
-
+		
 		<!--Кнопка меню для отображения навигации navbar на мобильных устройствах-->
-		<button class="navbar-toggler" type="button" 
-			data-toggle="collapse" data-target="#navbarSupportedContent" 
-			aria-controls="navbarSupportedContent" aria-expanded="false" 
-			aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+			<button class="navbar-toggler" type="button" 
+				data-toggle="collapse" data-target="#navbarSupportedContent" 
+				aria-controls="navbarSupportedContent" aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
 		<!--Содержимое меню Navbar-->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
 			<ul class="navbar-nav mr-auto">
+
 				<li class="nav-item" >
 					<a href="#" class="nav-link">Главная</a>
 				</li>
@@ -53,7 +55,7 @@
 					<a href="#" class="nav-link">Личный кабинет</a>
 				</li>
 			</ul>
-
+				
 			<!--Блок поиска справа-->
 			<form action="" class="form-inline my-2 my-lg-0">
 				<input type="text" class="form-control mr-sm2" 
@@ -68,12 +70,13 @@
 
 		<!--Заголовок "Good Новости"-->
 		<div class="container-fluid my-4 p-0" style="background-color: #E6E6FF;"><h1>Good Новости</h1>
-			</div>
+		</div>
 	
 		<!-- Tabs для новостей -->
 		<div class="container">
 
 			<ul class="nav nav-tabs justify-content-center">
+
 				<li class="nav-item">
 					<a class="nav-link active" data-toggle="tab" href="#home">Технологии</a>
 				</li>
@@ -89,11 +92,13 @@
 				  
 			<!-- Tab panes -->
 			<div class="tab-content">
+
 				<div id="home" class="container tab-pane active"><br>
 
 					<!--Блок с новостями-->
 					<div class="container my-2 p-0">
-						<div class="row text-center justify-content-center center">
+
+						<div class="row text-center justify-content-center center"> <!--"center" - это слайдер-->
 					
 							<div class="col-xs-12"><img src="img/news1.jpg" alt="«МЕГАФОН» первым..." class="w-100">
 							<h3>«МЕГАФОН» первым...</h3>
@@ -134,6 +139,7 @@
 
 		<!--Блок с видео-->
 		<div class="container-fluid">
+			
 			<div class="row m-5 lazy"> <!--"lazy"- это слайдер-->
 
 				<div class="col"><div class="embed-responsive embed-responsive-16by9">
@@ -159,7 +165,6 @@
 						allowfullscreen></iframe>
 					</div>
 				</div>
-
 			</div>
 		</div>
 
@@ -168,55 +173,55 @@
 		</div>
 
 		<!--Блок с рейтингом пользователей-->
-		<div class="container-fluid mt-2">
-			<div class="container p-4">
-				<div class="card-deck center"> <!--"center" - это слайдер-->
-					<div class="card text-center border-primary" style="width: 20rem;">
-						<img src="img/nm1.jpg" alt="" class="card-img-top">
-						<div class="card-body">
-						<h4 class="card-title">Ангелина</h4>
-						<p class="card-text">Журналист</p>
-						<p class="card-text"> Рейтинг: 9,8</p>
-						<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
-						</div>
-					</div>
-					
-					<div class="card text-center border-primary" style="width: 20rem;">
-						<img src="img/nm2.jpg" alt="" class="card-img-top">
-						<div class="card-body">
-						<h4 class="card-title">Екатерина</h4>
-						<p class="card-text">Блогер</p>
-						<p class="card-text"> Рейтинг: 9,5</p>
-						<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
-						</div>
-					</div>
+		<div class="container mt-2">
+			
+			<div class="card-deck multiple-items "> <!--"multiple-items" - это слайдер-->
 
-					<div class="card text-center border-primary" style="width: 20rem;">
-						<img src="img/nm3.jpg" alt="" class="card-img-top">
-						<div class="card-body">
-						<h4 class="card-title">Владислав</h4>
-						<p class="card-text">Писатель</p>
-						<p class="card-text"> Рейтинг: 8.9</p>
-						<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
-						</div>
-					</div>
-
-					<div class="card text-center border-primary" style="width: 20rem;">
-						<img src="img/nm4.jpg" alt="" class="card-img-top">
-						<div class="card-body">
-						<h4 class="card-title">Андрей</h4>
-						<p class="card-text">Блогер</p>
-						<p class="card-text"> Рейтинг: 8.7</p>
-						<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
-						</div>
+				<div class="card text-center border-primary">
+					<img src="img/nm1.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+					<h4 class="card-title">Ангелина</h4>
+					<p class="card-text">Журналист</p>
+					<p class="card-text"> Рейтинг: 9,8</p>
+					<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
 					</div>
 				</div>
-			</div>			
-		</div>
+					
+				<div class="card text-center border-primary">
+					<img src="img/nm2.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+					<h4 class="card-title">Екатерина</h4>
+					<p class="card-text">Блогер</p>
+					<p class="card-text"> Рейтинг: 9,5</p>
+					<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
+					</div>
+				</div>
+
+				<div class="card text-center border-primary">
+					<img src="img/nm3.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+					<h4 class="card-title">Владислав</h4>
+					<p class="card-text">Писатель</p>
+					<p class="card-text"> Рейтинг: 8.9</p>
+					<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
+					</div>
+				</div>
+
+				<div class="card text-center border-primary"> <!-- style="width: 20rem;"-->
+					<img src="img/nm4.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+					<h4 class="card-title">Андрей</h4>
+					<p class="card-text">Блогер</p>
+					<p class="card-text"> Рейтинг: 8.7</p>
+					<a href="#"><img class="card-img" src="img/like.jpg" alt=""></a> 
+					</div>
+				</div>
+			</div>
+		</div>			
 	</div>
 
 	<!--Футер-->
-	<footer class="navbar navbar-expand-center mt-4" style="background-color: #003867; height: 80px;">
+	<footer class="navbar navbar-expand-center mt-5" style="background-color: #003867; height: 80px;">
 
 		<!--Логотипы соцсетей-->
 		<a href="#" class="logss"> <img src="img/logS1.jpg" width="60" height="auto" alt="logo"> </a>
@@ -241,8 +246,7 @@
 
 	</footer>
 
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- Optional JavaScript -->   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
